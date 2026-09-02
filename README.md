@@ -1,4 +1,4 @@
-# Personal Bookmark Database
+# Adi's Dot-Bookmark
 
 > **Note:** Everything listed in this repository represents the websites, tools, and resources that I personally use and rely on.
 
