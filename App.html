@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>🐱 Adi's Dot-Bookmarks</title>
+        <style>
+            :root {
+                --bg: #0d1117;
+                --card-bg: #161b22;
+                --border: #30363d;
+                --text: #c9d1d9;
+                --text-muted: #8b949e;
+                --link: #58a6ff;
+            }
+
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                font-family:
+                    system-ui,
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    Roboto,
+                    sans-serif;
+                background-color: var(--bg);
+                color: var(--text);
+                line-height: 1.6;
+                max-width: 760px;
+                margin: 0 auto;
+                padding: 2.5rem 1rem;
+            }
+
+            header {
+                margin-bottom: 2.5rem;
+                border-bottom: 1px solid var(--border);
+                padding-bottom: 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin-bottom: 0.75rem;
+                letter-spacing: -0.02em;
+            }
+
+            .notice {
+                background: var(--card-bg);
+                border: 1px solid var(--border);
+                border-left: 3px solid var(--link);
+                padding: 0.75rem 1rem;
+                border-radius: 6px;
+                color: var(--text-muted);
+                font-size: 0.875rem;
+            }
+
+            section {
+                margin-bottom: 2rem;
+            }
+
+            h2 {
+                font-size: 1.1rem;
+                color: var(--text);
+                margin-bottom: 0.75rem;
+                border-bottom: 1px solid var(--border);
+                padding-bottom: 0.3rem;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            li {
+                margin-bottom: 0.5rem;
+                font-size: 0.925rem;
+            }
+
+            a {
+                color: var(--link);
+                text-decoration: none;
+                font-weight: 500;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            .desc {
+                color: var(--text-muted);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Adi's Dot-Bookmarks</h1>
+            <div class="notice">
+                <strong>Note:</strong> Everything listed here consists of
+                websites, tools, and resources I personally use.
+            </div>
+        </header>
+        <main>
+            <section>
+                <h2>Web Development & Frameworks</h2>
+                <ul>
+                    <li>
+                        <a
+                            href="https://astro.build/"
+                            target="_blank"
+                            rel="noopener"
+                            >Astro</a
+                        >
+                        <span class="desc"
+                            >— Fast, content-focused web framework.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://vitejs.dev/"
+                            target="_blank"
+                            rel="noopener"
+                            >Vite</a
+                        >
+                        <span class="desc"
+                            >— Next-generation frontend build tool and dev
+                            server.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://developer.mozilla.org/"
+                            target="_blank"
+                            rel="noopener"
+                            >MDN Web Docs</a
+                        >
+                        <span class="desc"
+                            >— Official reference for HTML, CSS, JavaScript, and
+                            Web APIs.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://tailwindcss.com/docs"
+                            target="_blank"
+                            rel="noopener"
+                            >Tailwind CSS</a
+                        >
+                        <span class="desc"
+                            >— Utility-first CSS framework documentation.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://caniuse.com/"
+                            target="_blank"
+                            rel="noopener"
+                            >Can I use...</a
+                        >
+                        <span class="desc"
+                            >— Browser support tables for modern web
+                            features.</span
+                        >
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Languages & Build Environments</h2>
+                <ul>
+                    <li>
+                        <a
+                            href="https://www.python.org/"
+                            target="_blank"
+                            rel="noopener"
+                            >Python</a
+                        >
+                        <span class="desc"
+                            >— Official Python language home and
+                            documentation.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://docs.astral.sh/uv/"
+                            target="_blank"
+                            rel="noopener"
+                            >uv</a
+                        >
+                        <span class="desc"
+                            >— Extremely fast Python package installer and
+                            virtualenv manager.</span
+                        >
+                    </li>
+                    <li>
+                        <a href="https://bun.sh/" target="_blank" rel="noopener"
+                            >Bun</a
+                        >
+                        <span class="desc"
+                            >— Fast all-in-one JavaScript/TypeScript runtime and
+                            package manager.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.msys2.org/"
+                            target="_blank"
+                            rel="noopener"
+                            >MSYS2</a
+                        >
+                        <span class="desc"
+                            >— Software distribution and build environment for
+                            GCC/MinGW on Windows.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://en.cppreference.com/"
+                            target="_blank"
+                            rel="noopener"
+                            >cppreference</a
+                        >
+                        <span class="desc"
+                            >— Comprehensive C and C++ standard library
+                            documentation.</span
+                        >
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Terminal & Browser Setup</h2>
+                <ul>
+                    <li>
+                        <a
+                            href="https://code.visualstudio.com/"
+                            target="_blank"
+                            rel="noopener"
+                            >VS Code</a
+                        >
+                        <span class="desc"
+                            >— Primary code editor and ecosystem.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.waterfox.net/"
+                            target="_blank"
+                            rel="noopener"
+                            >Waterfox</a
+                        >
+                        <span class="desc"
+                            >— Customizable, privacy-focused browser.</span
+                        >
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Digital Libraries & Tools</h2>
+                <ul>
+                    <li>
+                        <a
+                            href="https://annas-archive.gl/"
+                            target="_blank"
+                            rel="noopener"
+                            >Anna's Archive</a
+                        >
+                        <span class="desc"
+                            >— Open-source search engine for books and
+                            papers.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://open-slum.org/"
+                            target="_blank"
+                            rel="noopener"
+                            >Open-Slum</a
+                        >
+                        <span class="desc"
+                            >— Uptime dashboard tracking availability of digital
+                            library mirrors.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://welib.org/"
+                            target="_blank"
+                            rel="noopener"
+                            >WeLib</a
+                        >
+                        <span class="desc"
+                            >— Digital library platform for accessing open books
+                            and articles.</span
+                        >
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Knowledge & Notes</h2>
+                <ul>
+                    <li>
+                        <a
+                            href="https://obsidian.md/"
+                            target="_blank"
+                            rel="noopener"
+                            >Obsidian</a
+                        >
+                        <span class="desc"
+                            >— Markdown-based local personal knowledge
+                            base.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://logseq.com/"
+                            target="_blank"
+                            rel="noopener"
+                            >Logseq</a
+                        >
+                        <span class="desc"
+                            >— Local-first, privacy-focused outliner tool.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://notebooklm.google.com/"
+                            target="_blank"
+                            rel="noopener"
+                            >NotebookLM</a
+                        >
+                        <span class="desc"
+                            >— AI-powered research assistant for
+                            documents.</span
+                        >
+                    </li>
+                </ul>
+            </section>
+            <!-- NOTE: ADI -> IT WILL IN HOLD FOR WHILE CUZ FOR NOW I DON'T USE THESE THAT MUCH. -->
+            <!-- <section>
+                <h2>Science & Astronomy</h2>
+                <ul>
+                    <li>
+                        <a
+                            href="https://webbtelescope.org/"
+                            target="_blank"
+                            rel="noopener"
+                            >James Webb Space Telescope</a
+                        >
+                        <span class="desc"
+                            >— Official mission news and deep-space
+                            imagery.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.nasa.gov/"
+                            target="_blank"
+                            rel="noopener"
+                            >NASA Science</a
+                        >
+                        <span class="desc"
+                            >— Real-time space physics, orbiters, and aurora
+                            tracking.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://apod.nasa.gov/"
+                            target="_blank"
+                            rel="noopener"
+                            >APOD</a
+                        >
+                        <span class="desc"
+                            >— Astronomy Picture of the Day with daily concise
+                            explanations.</span
+                        >
+                    </li>
+                </ul>
+            </section> -->
+
+            <section>
+                <h2>Strategy, Cinema & Media</h2>
+                <ul>
+                    <li>
+                        <a
+                            href="https://sudoku.com/"
+                            target="_blank"
+                            rel="noopener"
+                            >Sudoku.com</a
+                        >
+                        <span class="desc"
+                            >— Classic logic-based number placement puzzle
+                            game.</span
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://letterboxd.com/"
+                            target="_blank"
+                            rel="noopener"
+                            >Letterboxd</a
+                        >
+                        <span class="desc"
+                            >— Social network for tracking, rating, and logging
+                            films.</span
+                        >
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </body>
+</html>
