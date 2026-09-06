@@ -16,7 +16,6 @@
 
 ## Web Development & Frameworks
 
-- [Astro](https://astro.build/) — Fast, content-focused web framework.
 - [Vite](https://vitejs.dev/) — Next-generation frontend build tool and dev server.
 - [MDN Web Docs](https://developer.mozilla.org/) — Official reference for HTML, CSS, JavaScript, and Web APIs.
 - [Tailwind CSS](https://tailwindcss.com/docs) — Utility-first CSS framework documentation.
